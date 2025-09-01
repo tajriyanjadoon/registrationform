@@ -92,3 +92,15 @@ body{
 .register a:hover{
     text-decoration: underline;
 }
+
+@media screen and (max-width: 800px){
+    .container{
+        width: 60%;
+    }
+    
+}
+@media screen and (min-width: 800px) and (max-width: 950px){
+    .container{
+        width: 50%;
+    }
+}
